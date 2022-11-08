@@ -1,0 +1,21 @@
+{
+    "name": "vendor/blog",
+    "description": "Personal blog",
+    "type": "project",
+    "require": {
+        "robmorgan/phinx": "^0.13.1",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vendor\\Blog\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vitor Figueiredo",
+            "email": "vitorfigueiredo855@gmail.com"
+        }
+    ]
+}
