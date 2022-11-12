@@ -1,3 +1,5 @@
 <?php
 
-require_once __DIR__ . "/src/view/home.php";
+// require_once __DIR__ . "/../vendor/autoload.php";
+
+require_once __DIR__ . "/pages/home.php";

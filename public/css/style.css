@@ -1,0 +1,102 @@
+body {
+  background-color: #1C1C1C;
+  color: #C0C0C0;
+}
+
+body a {
+  color: #808080;
+  text-decoration: none;
+}
+
+body a:hover {
+  color: #696969;
+  text-decoration: underline;
+}
+
+nav {
+  background: #363636;
+}
+
+nav a {
+  color: red;
+}
+
+.nav-link {
+  padding: .6em;
+  font-size: 1.5em;
+  color: #C0C0C0;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #696969;
+}
+
+.profile-section {
+  display: flex;
+  gap: 1.5em;
+
+  margin-top: 5em;
+}
+
+.profile-section img {
+  border-radius: 50%;
+}
+
+.name-and-description {
+  margin-top: 1.5em;
+}
+
+.about-section {
+  margin-top: 1.5em;
+
+  text-align: left;
+  font-size: 1.3em;
+}
+
+.latest-articles {
+  margin-top: 5em;
+}
+
+.title {
+  display: flex;
+  gap: 1.5em;
+}
+
+.title button {
+  font-size: 1.2em;
+  height: 2em;
+  width: 6em;
+  margin-top: 0.3em;
+  border-radius: .2em;
+  border: solid;
+  border-width: 0.1em;
+  color: #C0C0C0;
+  background-color: #1C1C1C;
+}
+
+.title button:hover {
+  cursor: pointer;
+  color: #1C1C1C;
+  background-color: #C0C0C0;
+  border: none;
+  transition: .3s;
+}
+
+.links {
+  margin-top: 1em;
+  font-size: 1.3em;
+}
+
+.links ul {
+  list-style: none;
+  margin-left: -1.5em;
+}
+
+.popular-articles {
+  margin-top: 5em;
+}
+
+footer {
+  margin-top: 5em;
+}
