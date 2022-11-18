@@ -35,10 +35,6 @@
               <a class="nav-link contato" href="#">Contato</a>
             </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Procurar" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Procurar</button>
-          </form>
         </div>
       </div>
     </nav>
@@ -105,9 +101,6 @@
 
   <footer class="container p-4 rounded">
     <div class="d-lg-flex justify-content-center">
-      <!-- <div>
-          <span>LOGO</span>
-        </div> -->
       <div class="copyright">
         <p>Developed by <a href="https://github.com/vittorfigueiredo" target="_blank">Vitor Figueiredo</a></p>
       </div>
