@@ -14,11 +14,7 @@ body a:hover {
 }
 
 nav {
-  background: #363636;
-}
-
-nav a {
-  color: red;
+  background: #1C1C1C;
 }
 
 .nav-link {
@@ -36,15 +32,22 @@ nav a {
   display: flex;
   gap: 1.5em;
 
-  margin-top: 5em;
+  margin-top: 2em;
 }
 
 .profile-section img {
+  width: 112px;
+  height: 112px;
   border-radius: 50%;
 }
 
 .name-and-description {
-  margin-top: 1.5em;
+  margin-top: .8em;
+}
+
+.name-and-description h4 {
+  font-size: 1.2em;
+  font-weight: 300;
 }
 
 .about-section {
@@ -98,5 +101,5 @@ nav a {
 }
 
 footer {
-  margin-top: 5em;
+  margin-top: .8em;
 }
