@@ -103,8 +103,8 @@ nav {
 footer {
   display: flex;
   justify-content: space-between;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin-top: 5em;
+  margin-bottom: 5em;
 }
 
 .copyright {
@@ -114,4 +114,22 @@ footer {
 #social-networks {
   padding: .6em;
   gap: 1em;
+}
+
+#up-arrow {
+  position: absolute;
+  left: 110em;
+  margin-top: -5em;
+}
+
+#up-arrow img {
+  background-color: #FFFF;
+  padding: .6em;
+  border-radius: 50%;
+}
+
+#up-arrow img:hover {
+  cursor: pointer;
+  transition: .2s;
+  background-color: #696969;
 }
