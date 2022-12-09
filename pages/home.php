@@ -32,7 +32,7 @@
               <a class="nav-link code" href="#">Code</a>
             </li>
             <li class="nav-item">
-              <p class="nav-link" onclick="scrollDown()">Contato</p>
+              <a class="nav-link contact" onclick="scrollDown()" style="cursor: pointer;">Contato</a>
             </li>
           </ul>
         </div>
