@@ -32,7 +32,7 @@
               <a class="nav-link code" href="#">Code</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link contato" href="#">Contato</a>
+              <p class="nav-link" onclick="scrollDown()">Contato</p>
             </li>
           </ul>
         </div>
@@ -99,14 +99,27 @@
     </div>
   </main>
 
-  <footer class="container p-4 rounded">
-    <div class="d-lg-flex justify-content-center">
-      <div class="copyright">
-        <p>Developed by <a href="https://github.com/vittorfigueiredo" target="_blank">Vitor Figueiredo</a></p>
+  <footer class="container">
+    <div id="copyright" class="d-lg-flex justify-content-center">
+      <p>Developed by <a href="https://github.com/vittorfigueiredo" target="_blank">Vitor Figueiredo</a></p>
+    </div>
+    <div id="social-networks" class="d-lg-flex justify-content-center">
+      <div>
+        <a href="https://instagram.com/vittorfigueiredo" target="_blank"><img src="/public/imgs/instagram.svg" alt="instagram"></a>
+      </div>
+      <div>
+        <a href="https://linkedin.com/in/vittorfigueiredo" target="_blank"><img src="/public/imgs/linkedin.svg" alt="linkedin"></a>
+      </div>
+      <div>
+        <a href="https://github.com/vittorfigueiredo" target="_blank"><img src="/public/imgs/github.svg" alt="github"></a>
+      </div>
+      <div>
+        <a href="https://twitter.com/ovitorfs" target="_blank"><img src="/public/imgs/twitter.svg" alt="twitter"></a>
       </div>
     </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <script src="/public/js/main.js"></script>
 </body>
 
 </html>
