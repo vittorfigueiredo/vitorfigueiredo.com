@@ -32,7 +32,7 @@ nav {
   display: flex;
   gap: 1.5em;
 
-  margin-top: 2em;
+  margin-top: 1.5em;
 }
 
 .profile-section img {
@@ -101,5 +101,17 @@ nav {
 }
 
 footer {
-  margin-top: .8em;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.copyright {
+  padding: .6em;
+}
+
+#social-networks {
+  padding: .6em;
+  gap: 1em;
 }
