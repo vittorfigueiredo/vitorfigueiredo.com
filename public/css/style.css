@@ -101,8 +101,6 @@ nav {
 }
 
 footer {
-  display: flex;
-  justify-content: space-between;
   margin-top: 5em;
   margin-bottom: 5em;
 }
@@ -111,15 +109,22 @@ footer {
   padding: .6em;
 }
 
+.copyright, p {
+  display: flex;
+  justify-content: center;
+  gap: .3em;
+}
+
 #social-networks {
+  display: flex;
+  justify-content: space-between;
   padding: .6em;
   gap: 1em;
 }
 
 #up-arrow {
-  position: absolute;
-  left: 110em;
-  margin-top: -5em;
+  display: flex;
+  justify-content: end;
 }
 
 #up-arrow img {
