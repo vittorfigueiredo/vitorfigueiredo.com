@@ -100,8 +100,8 @@
   </main>
 
   <footer class="container">
-    <div id="copyright" class="d-lg-flex justify-content-center">
-      <p>Developed by <a href="https://github.com/vittorfigueiredo" target="_blank">Vitor Figueiredo</a></p>
+    <div  id="up-arrow">
+      <img src="/public/imgs/chevron-up.svg" alt="up" onclick="scrollUp()">
     </div>
     <div id="social-networks" class="d-lg-flex justify-content-center">
       <div>
@@ -117,8 +117,8 @@
         <a href="https://twitter.com/ovitorfs" target="_blank"><img src="/public/imgs/twitter.svg" alt="twitter"></a>
       </div>
     </div>
-    <div id="up-arrow">
-      <img src="/public/imgs/chevron-up.svg" alt="up" onclick="scrollUp()">
+    <div id="copyright" class="d-lg-flex justify-content-center">
+      <p>Developed by<a href="https://github.com/vittorfigueiredo" target="_blank">Vitor Figueiredo</a></p>
     </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
