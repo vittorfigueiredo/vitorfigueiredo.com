@@ -4,12 +4,13 @@
     "type": "project",
     "require": {
         "robmorgan/phinx": "^0.13.1",
-        "vlucas/phpdotenv": "^5.5"
+        "vlucas/phpdotenv": "^5.5",
+        "league/plates": "^3.4"
     },
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Vendor\\Blog\\": "src/"
+            "app\\": "app/"
         }
     },
     "authors": [
