@@ -27,8 +27,8 @@
             <li class="nav-item" hidden>
               <a class="nav-link music" href="/music">Musica</a>
             </li>
-            <li class="nav-item" hidden>
-              <a class="nav-link code" href="/code">Code</a>
+            <li class="nav-item">
+              <a class="nav-link code" href="https://s3.us-east-2.amazonaws.com/documents.vitorfigueiredo.com/VitorFigueiredo-CV.pdf" target="_blank">Currículo</a>
             </li>
             <li class="nav-item">
               <a class="nav-link contact" onclick="scrollDown()" style="cursor: pointer;">Contato</a>
