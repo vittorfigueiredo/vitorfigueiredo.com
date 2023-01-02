@@ -3,7 +3,7 @@
 <main class="container">
   <div class="profile-section">
     <div class="image">
-      <img src="/assets/imgs/profile.jpg" alt="profile">
+      <img src="/assets/img/profile.jpg" alt="profile">
     </div>
     <div class="name-and-description">
       <h1>Olá, Eu sou o Vitor</h1>

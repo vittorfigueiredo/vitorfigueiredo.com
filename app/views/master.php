@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="/assets/imgs/favicon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="/assets/img/favicon.png" type="image/x-icon">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <link rel="stylesheet" href="/assets/css/style.css">
   <title><?=$this->e($title)?></title>
@@ -43,20 +43,20 @@
 
   <footer class="container">
     <div  id="up-arrow">
-      <img src="/assets/imgs/chevron-up.svg" alt="up" onclick="scrollUp()">
+      <img src="/assets/img/chevron-up.svg" alt="up" onclick="scrollUp()">
     </div>
     <div id="social-networks" class="d-lg-flex justify-content-center">
       <div>
-        <a href="https://instagram.com/vittorfigueiredo" target="_blank"><img src="/assets/imgs/instagram.svg" alt="instagram"></a>
+        <a href="https://youtube.com/@vittorfigueiredo" target="_blank"><img src="/assets/img/youtube.svg" alt="youtube"></a>
       </div>
       <div>
-        <a href="https://linkedin.com/in/vittorfigueiredo" target="_blank"><img src="/assets/imgs/linkedin.svg" alt="linkedin"></a>
+        <a href="https://linkedin.com/in/vittorfigueiredo" target="_blank"><img src="/assets/img/linkedin.svg" alt="linkedin"></a>
       </div>
       <div>
-        <a href="https://github.com/vittorfigueiredo" target="_blank"><img src="/assets/imgs/github.svg" alt="github"></a>
+        <a href="https://github.com/vittorfigueiredo" target="_blank"><img src="/assets/img/github.svg" alt="github"></a>
       </div>
       <div>
-        <a href="https://twitter.com/ovitorfs" target="_blank"><img src="/assets/imgs/twitter.svg" alt="twitter"></a>
+        <a href="https://twitter.com/ovitorfs" target="_blank"><img src="/assets/img/twitter.svg" alt="twitter"></a>
       </div>
     </div>
     <div id="copyright" class="d-lg-flex justify-content-center">
