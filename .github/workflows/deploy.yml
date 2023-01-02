@@ -8,7 +8,7 @@ on:
 jobs:
   deploy:
     name: Deploy
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: executing remote ssh commands using ssh key
