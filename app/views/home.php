@@ -19,7 +19,7 @@
       Em 2018 eu comecei um curso de Técnico em Informática no IFPB da cidade onde eu morava, lá eu tive uma introdução sobre algoritimos e programação, e com isso fui cada vez mais curtindo o que eu estava aprendendo, mas não práticava muito, tinha o hábito de procrastinar muito haha.
     </p>
     <p>
-      Então foi de fato em 2020 quando entrei no curso de Análise e Desenvolvimento de Sistemas que comecei a por a mão na massa e a práticar, e em 2021 eu consegui minha primeira oportunidade no mercado de trabalho, consegui uma vaga para um estágio e foi onde aprendi muita coisa, como funcionava em uma empresa de verdade. Atualmente ainda estou nessa empresa só que como desenvolvedor júnior.
+      Então foi de fato em 2020 quando entrei no curso de Análise e Desenvolvimento de Sistemas que comecei a por a mão na massa e a praticar, e em 2021 eu consegui minha primeira oportunidade no mercado de trabalho, consegui uma vaga para um estágio e foi onde aprendi muita coisa, como funcionava em uma empresa de verdade. Atualmente ainda estou nessa empresa só que como desenvolvedor júnior.
     </p>
   </div>
 
