@@ -1,3 +1,10 @@
+@media screen and (max-width: 992px) {
+  .profile-section {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
 body {
   background-color: #1C1C1C;
   color: #C0C0C0;
@@ -15,6 +22,10 @@ body a:hover {
 
 nav {
   background: #1C1C1C;
+}
+
+nav span {
+ color: #C0C0C0;
 }
 
 .nav-link {
@@ -53,7 +64,7 @@ nav {
 .about-section {
   margin-top: 1.5em;
 
-  text-align: left;
+  text-align: justify;
   font-size: 1.3em;
 }
 
