@@ -29,7 +29,7 @@ nav span {
 }
 
 .nav-link {
-  padding: .6em;
+  padding: .6em 0;
   font-size: 1.5em;
   color: #C0C0C0;
   text-decoration: none;

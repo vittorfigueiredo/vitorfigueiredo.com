@@ -26,8 +26,8 @@
   <header>
     <nav class="container navbar navbar-expand-lg">
       <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="" role="button" ><i class="fa fa-bars" aria-hidden="true" style="color:#C0C0C0;"></i> Menu</span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="padding: 0; margin: 0;">
+          <span class="" role="button" ><i class="fa fa-bars" aria-hidden="true" style="font-size: 2rem; color:#C0C0C0;"></i></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
