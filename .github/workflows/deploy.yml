@@ -17,4 +17,4 @@ jobs:
           host: ${{ secrets.AWS_HOST }}
           username: ${{ secrets.AWS_USER }}
           key: ${{ secrets.AWS_KEY }}
-          script: sh /var/www/vitorfigueiredo.com/deploy.sh
+          script: sh ${{ secrets.DEPLOY_SCRIPT_PATH }}
