@@ -31,7 +31,7 @@
               <a class="nav-link code" href="https://s3.us-east-2.amazonaws.com/documents.vitorfigueiredo.com/VitorFigueiredo-CV.pdf" target="_blank">Currículo</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link contact" onclick="scrollDown()" style="cursor: pointer;">Contato</a>
+              <a class="nav-link contact" href="#contact">Contato</a>
             </li>
           </ul>
         </div>
@@ -43,20 +43,20 @@
 
   <footer class="container">
     <div  id="up-arrow">
-      <img src="/assets/img/chevron-up.svg" alt="up" onclick="scrollUp()">
+      <img width="43px" height="43px" src="/assets/img/chevron-up.svg" alt="up" onclick="scrollUp()">
     </div>
-    <div id="social-networks" class="d-lg-flex justify-content-center">
+    <div id="contact" class="d-lg-flex justify-content-center">
       <div>
-        <a href="https://youtube.com/@vittorfigueiredo" target="_blank"><img src="/assets/img/youtube.svg" alt="youtube"></a>
+        <a href="https://youtube.com/@vittorfigueiredo" target="_blank"><img width="24px" height="24px" src="/assets/img/youtube.svg" alt="youtube"></a>
       </div>
       <div>
-        <a href="https://linkedin.com/in/vittorfigueiredo" target="_blank"><img src="/assets/img/linkedin.svg" alt="linkedin"></a>
+        <a href="https://linkedin.com/in/vittorfigueiredo" target="_blank"><img width="24px" height="24px" src="/assets/img/linkedin.svg" alt="linkedin"></a>
       </div>
       <div>
-        <a href="https://github.com/vittorfigueiredo" target="_blank"><img src="/assets/img/github.svg" alt="github"></a>
+        <a href="https://github.com/vittorfigueiredo" target="_blank"><img width="24px" height="24px" src="/assets/img/github.svg" alt="github"></a>
       </div>
       <div>
-        <a href="https://twitter.com/ovitorfs" target="_blank"><img src="/assets/img/twitter.svg" alt="twitter"></a>
+        <a href="https://twitter.com/ovitorfs" target="_blank"><img width="24px" height="24px" src="/assets/img/twitter.svg" alt="twitter"></a>
       </div>
     </div>
     <div id="copyright" class="d-lg-flex justify-content-center">
