@@ -92,12 +92,22 @@
   <script src="/assets/js/main.js"></script>
   <script src="/assets/js/cookies.js"></script>
 
+  <!-- Popcash codes -->
   <script type="text/javascript">
     var uid = '451665';
     var wid = '677901';
     var pop_tag = document.createElement('script');pop_tag.src='//cdn.popcash.net/show.js';document.body.appendChild(pop_tag);
     pop_tag.onerror = function() {pop_tag = document.createElement('script');pop_tag.src='//cdn2.popcash.net/show.js';document.body.appendChild(pop_tag)};
   </script>
+
+  <script type="text/javascript">
+    var uid = '451665';
+    var wid = '677901';
+    var pop_fback = 'up';
+    var pop_tag = document.createElement('script');pop_tag.src='//cdn.popcash.net/show.js';document.body.appendChild(pop_tag);
+    pop_tag.onerror = function() {pop_tag = document.createElement('script');pop_tag.src='//cdn2.popcash.net/show.js';document.body.appendChild(pop_tag)};
+  </script>
+  <!-- End of Popcash codes -->
 
 </body>
 </html>
