@@ -38,6 +38,7 @@ class Router
     return [
       "GET" => [
         "/" => fn() => self::load("HomeController", "index"),
+        "/article" => fn() => self::load("ArticleController", "index")
       ],
     ];
   }

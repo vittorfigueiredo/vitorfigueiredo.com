@@ -28,12 +28,12 @@
       <h1>Ultimos Artigos</h1>
       <button>All Aticles</button>
     </div>
-    <div class="links">
+    <div id="latest-articles-links" class="links">
       <ul>
         <!-- <li><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></li>
         <li><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></li>
         <li><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></li> -->
-        <li>Nenhum artigo encontrado!</li>
+        <!-- <li>Nenhum artigo encontrado!</li> -->
       </ul>
     </div>
   </div>
@@ -42,20 +42,12 @@
     <div class="title">
       <h1>Artigos Populares</h1>
     </div>
-    <div class="links">
+    <div id="popular-articles-links" class="links">
       <ul>
         <!-- <li><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></li>
         <li><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></li>
-        <li><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></li>
-        <li><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></li>
-        <li><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></li>
-        <li><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></li>
-        <li><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></li>
-        <li><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></li>
-        <li><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></li>
-        <li><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></li>
         <li><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></li> -->
-        <li>Nenhum artigo encontrado!</li>
+        <!-- <li>Nenhum artigo encontrado!</li> -->
       </ul>
     </div>
   </div>
