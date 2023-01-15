@@ -68,7 +68,7 @@
   text-decoration: none;
 }
 
-p {
+.content p {
   font-size: 1.2em;
   text-align: justify;
   font-weight: 300;
@@ -91,6 +91,8 @@ pre, code {
   padding: 2em;
   border-radius: 1em;
   color: #1C1C1C;
+  font-weight: 300;
+  font-size: 1.2em;
 }
 
 .author-image img {

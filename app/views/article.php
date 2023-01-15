@@ -18,16 +18,18 @@
     <a href="#">PHP</a>
   </div>
 
-  <?php
-    use Parsedown;
+  <div class="content">
+    <?php
+      use Parsedown;
 
-    $name = filter_input(INPUT_GET, "name", FILTER_DEFAULT);
+      $name = filter_input(INPUT_GET, "name", FILTER_DEFAULT);
 
-    $parser = new Parsedown();
-    $post = file_get_contents("articles/$date/$name.md");
+      $parser = new Parsedown();
+      $post = file_get_contents("articles/$date/$name.md");
 
-    echo $parser->text($post);
-  ?>
+      echo $parser->text($post);
+    ?>
+  </div>
 
   <div class="about-author">
     <div class="author-image">
