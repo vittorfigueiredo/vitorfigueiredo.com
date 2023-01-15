@@ -3,6 +3,10 @@
     flex-direction: column;
     text-align: center;
   }
+
+  p {
+    word-spacing: -2px;
+  }
 }
 
 body {
@@ -46,7 +50,6 @@ nav span {
 .profile-section {
   display: flex;
   gap: 1.5em;
-
   margin-top: 1.5em;
 }
 
@@ -61,7 +64,7 @@ nav span {
 }
 
 .name-and-description h4 {
-  font-size: 1.2em;
+  font-size: 1.3em;
   font-weight: 300;
 }
 
@@ -70,6 +73,7 @@ nav span {
 
   text-align: justify;
   font-size: 1.3em;
+  font-weight: 300;
 }
 
 .latest-articles {
@@ -107,8 +111,9 @@ nav span {
 }
 
 .links ul {
+  font-weight: 300;
   list-style: none;
-  margin-left: -1.5em;
+  margin: 0 0 0 -1.5em;
 }
 
 .popular-articles {
@@ -120,14 +125,24 @@ footer {
   margin-bottom: 5em;
 }
 
-.copyright {
-  padding: .6em;
+footer p {
+  margin: 0;
+  text-align: center;
 }
 
-.copyright, p {
+.copyright {
   display: flex;
   justify-content: center;
   gap: .3em;
+  margin-bottom: 0;
+}
+
+#open-source {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
 }
 
 #contact {
@@ -135,6 +150,10 @@ footer {
   justify-content: space-between;
   padding: .6em;
   gap: 1em;
+}
+
+#contact i {
+  font-size: 24px;
 }
 
 #up-arrow {
