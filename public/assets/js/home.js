@@ -1,5 +1,5 @@
 async function getLatestArticles() {
-  const response = await fetch('/article/all', { method: 'GET', headers: { Authorization: 'Teste' } });
+  const response = await fetch(`https://${window.location.host}/article/all`, { method: 'GET', headers: { Authorization: 'Teste' } });
 
   const articles = await response.json();
 
