@@ -5,7 +5,7 @@ async function getLatestArticles() {
 
   const latestArticlesLinksDiv = document.getElementById('latest-articles-links');
 
-  if (Object.keys(articles).length === 0) {
+  if (Object.keys(articles).length === 0 || !response.ok) {
     latestArticlesLinksDiv.innerText = 'Nenhum artigo encontrado!';
     latestArticlesLinksDiv.style.fontWeight = 300;
 
