@@ -27,6 +27,10 @@
       $parser = new Parsedown();
       $post = file_get_contents("articles/$date/$name.md");
 
+      if (!$post) {
+        header("Location: /ArticleNotFound");
+      }
+
       echo $parser->text($post);
     ?>
   </div>
