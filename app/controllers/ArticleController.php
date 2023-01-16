@@ -21,18 +21,8 @@ class ArticleController extends Controller
     $this->view("article", ["title" => "Article – Vitor Figueiredo"]);
   }
 
-  public function getArticles() {
-
-    try {
-
-      if ($_SERVER["HTTP_AUTHORIZATION"] !== "Teste") {
-        throw new \Exception("Unauthorized!", http_response_code(401));
-      }
-
-    } catch (\Throwable $th) {
-      die($th->getMessage());
-    }
-
+  public function getArticles()
+  {
     $query = "SELECT * FROM articles ORDER BY createdAt DESC";
     $statement = $this->connection->prepare($query);
     $statement->execute();
