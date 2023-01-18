@@ -25,13 +25,13 @@
       $name = filter_input(INPUT_GET, "name", FILTER_DEFAULT);
 
       $parser = new Parsedown();
-      $post = file_get_contents("articles/$date/$name.md");
+      $article = file_get_contents("articles/$name.md");
 
-      if (!$post) {
+      if (!$article) {
         header("Location: /ArticleNotFound");
       }
 
-      echo $parser->text($post);
+      echo $parser->text($article);
     ?>
   </div>
 
