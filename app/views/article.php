@@ -21,16 +21,17 @@
   <div class="content">
     <?php
       use Parsedown;
+      use app\helpers\Uri;
 
-      $name = filter_input(INPUT_GET, "name", FILTER_DEFAULT);
+      $name = addslashes(str_replace("name=", "", Uri::get("query")));
 
-      $parser = new Parsedown();
       $article = file_get_contents("articles/$name.md");
 
       if (!$article) {
         header("Location: /ArticleNotFound");
       }
 
+      $parser = new Parsedown();
       echo $parser->text($article);
     ?>
   </div>
