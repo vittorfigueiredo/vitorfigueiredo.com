@@ -63,16 +63,16 @@
     </div>
     <div id="contact" class="d-lg-flex justify-content-center">
       <div>
-        <a href="https://twitter.com/ovitorfs" target="_blank"><i class="bi bi-twitter"></i></a>
+        <a href="https://twitter.com/ovitorfs" aria-label="Link to my twitter" target="_blank"><i class="bi bi-twitter"></i></a>
       </div>
       <div>
-        <a href="https://linkedin.com/in/vittorfigueiredo" target="_blank"><i class="bi bi-linkedin"></i></a>
+        <a href="https://linkedin.com/in/vittorfigueiredo" aria-label="Link to my linkedin" target="_blank"><i class="bi bi-linkedin"></i></a>
       </div>
       <div>
-        <a href="https://github.com/vittorfigueiredo" target="_blank"><i class="bi bi-github"></i></a>
+        <a href="https://github.com/vittorfigueiredo" aria-label="Link to my github" target="_blank"><i class="bi bi-github"></i></a>
       </div>
       <div>
-        <a href="https://youtube.com/@vittorfigueiredo" target="_blank"><i class="bi bi-youtube"></i></a>
+        <a href="https://youtube.com/@vittorfigueiredo" aria-label="Link to my youtube channel" target="_blank"><i class="bi bi-youtube"></i></a>
       </div>
     </div>
     <div id="copyright" class="d-lg-flex justify-content-center">

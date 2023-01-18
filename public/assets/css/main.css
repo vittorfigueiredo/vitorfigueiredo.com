@@ -128,7 +128,8 @@ footer {
 footer p {
   margin: 0;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.3em;
+  font-weight: 300;
 }
 
 .copyright {
