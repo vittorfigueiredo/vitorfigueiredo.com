@@ -76,17 +76,17 @@
       </div>
     </div>
     <div id="copyright" class="d-lg-flex justify-content-center">
-      <p>Developed by<a href="/" target="_blank"> Vitor Figueiredo</a></p>
+      <p>Developed by<a href="/" aria-label="Go to home page" target="_blank"> Vitor Figueiredo</a></p>
     </div>
     <div id="open-source">
-      <p><a href="https://github.com/vittorfigueiredo/vitorfigueiredo.com">This website is open-source</a></p>
+      <p><a href="https://github.com/vittorfigueiredo/vitorfigueiredo.com" aria-label="Go to open source repository">This website is open-source</a></p>
     </div>
   </footer>
 
   <!-- Cookie Banner -->
   <div id="cb-cookie-banner" class="alert alert-dark text-center mb-0" role="alert">
     🍪 Este site usa cookies para garantir que você obtenha a melhor experiência em nosso site.
-    <a href="https://www.cookiesandyou.com/" target="blank">Saiba mais</a>
+    <a href="https://www.cookiesandyou.com/" aria-label="Read more cookies" target="blank">Saiba mais</a>
     <button type="button" class="btn btn-dark btn-sm ms-3" onclick="window.cb_hideCookieBanner()">
     Aceito
     </button>

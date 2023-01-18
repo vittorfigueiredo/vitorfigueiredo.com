@@ -18,6 +18,7 @@ async function getLatestArticles() {
     const latestArticlesLinksA = document.createElement('a');
     latestArticlesLinksA.href = `article?name=${article.content}`;
     latestArticlesLinksA.innerText = article.title;
+    latestArticlesLinksA.setAttribute('aria-label', `Read more about ${article.title}`);
 
     latestArticlesLinksDiv.appendChild(latestArticlesLinksUl);
     latestArticlesLinksUl.appendChild(latestArticlesLinksLi);
