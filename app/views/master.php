@@ -44,9 +44,6 @@
               <a class="nav-link music" href="/music">Musica</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link code" href="https://s3.us-east-2.amazonaws.com/documents.vitorfigueiredo.com/VitorFigueiredo-CV.pdf" target="_blank">Currículo</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link contact" href="#contact">Contato</a>
             </li>
           </ul>
