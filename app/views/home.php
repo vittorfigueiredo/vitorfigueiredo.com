@@ -13,13 +13,22 @@
 
   <div class="about-section">
     <p>
-      Eu tenho 21 anos e sempre fui apaixonado por tecnologia desde pequeno. Eu sempre tive essa paixão, mas até 2017 quando eu estava concluindo o ensino médio, ainda estava muito indeciso sobre o que eu queria fazer da minha vida e qual carreira seguir.
+      Programador de 21 anos apaixonado por tecnologia e solucionar problemas.
     </p>
     <p>
-      Em 2018 eu comecei um curso de Técnico em Informática no IFPB da cidade onde eu morava, lá eu tive uma introdução sobre algoritimos e programação, e com isso fui cada vez mais curtindo o que eu estava aprendendo, mas não praticava muito, tinha o hábito de procrastinar muito haha.
+      Estou no mercado há 2 anos, onde comecei como estagiário e atualmente estou como júnior. Atuo principalmente como backend, mas já fiz front, infra e etc. Criei e apliquei diversas regras de negócio, sem contar na quantidade de bugs resolvidos haha.
     </p>
     <p>
-      Então foi de fato em 2020 quando entrei no curso de Análise e Desenvolvimento de Sistemas que comecei a por a mão na massa e a praticar, e em 2021 eu consegui minha primeira oportunidade no mercado de trabalho, consegui uma vaga para um estágio e foi onde aprendi muita coisa, como funcionava em uma empresa de verdade. Atualmente ainda estou nessa empresa só que como desenvolvedor júnior.
+      Minha stack principal é o PHP e MySQL. Tenho experiência também com o framework NestJS. Atualmente estou estudando Laravel para somar na minha stack principal.
+    </p>
+    <p>
+      Não me limito as ferramentas e nem tecnologias, uso a que for necessária para solucionar o problema e realizar uma entrega com qualidade.
+    </p>
+    <p>
+      Durante essa jornada fui exposto a diversos desafios e problemas inesperados no qual não sabia se era capaz de lidar, para o azar deles, não sou alguém que se dá por vencido e consegui derrubar um por um.
+    </p>
+    <p>
+      Esse sou eu! 🫡
     </p>
   </div>
 
