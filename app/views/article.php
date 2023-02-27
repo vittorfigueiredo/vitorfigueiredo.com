@@ -1,10 +1,14 @@
-<?php $this->layout("master", ["title" => $title]) ?>
+<?php
+
+use app\controllers\ArticleController;
+
+ $this->layout("master", ["title" => $title]) ?>
 
 <link rel="stylesheet" href="/assets/css/article.css">
 
 <div class="container">
   <class class="title">
-    <h1>Introdução à sintaxe básica do PHP</h1>
+    <h1><?php $articleController = new ArticleController(); echo $articleController->getArticleByName($_GET["name"])[0]["title"]; ?></h1>
   </class>
   <div class="post-info">
     <div class="author">

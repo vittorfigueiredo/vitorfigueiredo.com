@@ -34,4 +34,18 @@ class ArticleController extends Controller
 
     return Response::json($articles);
   }
+
+  public function getArticleByName(string $name)
+  {
+    $query = "SELECT * FROM articles WHERE content = '$name'";
+    $statement = $this->connection->prepare($query);
+    $statement->execute();
+    $articles = $statement->fetchAll(DBConnection::FETCH_ASSOC);
+
+    if (!$articles) {
+      return Response::json([]);
+    }
+
+    return Response::json($articles);
+  }
 }
