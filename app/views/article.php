@@ -4,7 +4,7 @@
 
 <div class="container">
   <class class="title">
-    <h1>Introdução à sintaxe básica do PHP</h1>
+    <h1>Lorem ipsum dolor sit, amet consectetur</h1>
   </class>
   <div class="post-info">
     <div class="author">
@@ -47,5 +47,6 @@
   </div>
 </div>
 
+<script src="/assets/js/article.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
 <script>hljs.highlightAll()</script>
