@@ -18,7 +18,22 @@ class ArticleController extends Controller
 
   public function index()
   {
-    $this->view("article", ["title" => "Article – Vitor Figueiredo"]);
+    $articleName = filter_input(INPUT_GET, 'name', FILTER_SANITIZE_ADD_SLASHES);
+
+    if (!$articleName) {
+      return $this->view("404");
+    }
+
+    $article = self::getArticleByName($articleName);
+
+    if (!$article) {
+      return $this->view("404");
+    }
+
+    return $this->view("article", [
+      "title" => $article['title'] . " – Vitor Figueiredo",
+      "article" => $article
+    ]);
   }
 
   public function getArticles()
@@ -35,19 +50,18 @@ class ArticleController extends Controller
     return Response::json($articles);
   }
 
-  public function getArticleByName()
+  private function getArticleByName(string $name)
   {
-    $name = filter_input(INPUT_GET, 'name', FILTER_SANITIZE_ADD_SLASHES);
 
-    $query = "SELECT title FROM articles WHERE content = '$name'";
+    $query = "SELECT title, createdAt FROM articles WHERE content = '$name'";
     $statement = $this->connection->prepare($query);
     $statement->execute();
-    $articles = $statement->fetchAll(DBConnection::FETCH_ASSOC);
+    $article = $statement->fetchAll(DBConnection::FETCH_ASSOC)[0];
 
-    if (!$articles) {
-      return Response::json([]);
+    if (!$article) {
+      return [];
     }
 
-    return Response::json($articles[0]);
+    return $article;
   }
 }
