@@ -4,14 +4,14 @@
 
 <div class="container">
   <class class="title">
-    <h1>Lorem ipsum dolor sit, amet consectetur</h1>
+    <h1><?=$this->e($article["title"]) ? $this->e($article["title"]) : "Lorem ipsum dolor, sit amet consectetur adipisicing elit."?></h1>
   </class>
   <div class="post-info">
     <div class="author">
       <img height="40px" width="40px" src="/assets/img/profile.jpg" alt="author">
       <h6>Vitor Figueiredo</h6>
     </div>
-    <h6><span><i class="bi bi-calendar-date"></i></span>06 Jan 2023</h6>
+    <h6><span><i class="bi bi-calendar-date"></i></span><?=$this->e($article["createdAt"]) ? date_format(new DateTime($this->e($article["createdAt"])), 'd-m-Y H:i') : "06 Jan 2023" ?></h6>
     <h6><span><i class="bi bi-watch"></i></span>3 minutos de leitura</h6>
   </div>
   <div class="tags">
