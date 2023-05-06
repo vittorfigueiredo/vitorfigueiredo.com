@@ -38,12 +38,7 @@
       <button>Todos</button>
     </div>
     <div id="latest-articles-links" class="links">
-      <ul>
-        <!-- <li><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></li>
-        <li><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></li>
-        <li><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></li> -->
-        <!-- <li>Nenhum artigo encontrado!</li> -->
-      </ul>
+      <ul></ul>
     </div>
   </div>
 
@@ -52,12 +47,7 @@
       <h1>Artigos Populares</h1>
     </div>
     <div id="popular-articles-links" class="links">
-      <ul>
-        <!-- <li><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></li>
-        <li><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></li>
-        <li><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></li> -->
-        <!-- <li>Nenhum artigo encontrado!</li> -->
-      </ul>
+      <ul></ul>
     </div>
   </div>
 </main>
