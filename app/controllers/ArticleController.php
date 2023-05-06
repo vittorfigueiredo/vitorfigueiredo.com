@@ -6,6 +6,7 @@ namespace app\controllers;
 
 use app\database\DBConnection;
 use app\helpers\Response;
+use app\helpers\Uri;
 
 class ArticleController extends Controller
 {
@@ -18,7 +19,7 @@ class ArticleController extends Controller
 
   public function index()
   {
-    $articleName = filter_input(INPUT_GET, 'name', FILTER_SANITIZE_ADD_SLASHES);
+    $articleName = str_replace("name=", "", Uri::get('query'));
 
     if (!$articleName) {
       return $this->view("404");
