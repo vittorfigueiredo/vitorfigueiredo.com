@@ -100,3 +100,8 @@ pre, code {
   width: 112px;
   border-radius: 50%;
 }
+
+.content img {
+  width: 100%;
+  height: auto;
+}

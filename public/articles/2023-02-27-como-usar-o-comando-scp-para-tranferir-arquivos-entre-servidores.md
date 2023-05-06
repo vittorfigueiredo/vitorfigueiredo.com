@@ -1,3 +1,7 @@
+<center> <img src="https://lintut.com/wp-content/uploads/2014/03/scp-between-linux-computers-featured.jpg" alt="article image"></img> </center>
+
+<br>
+
 Fala devs, tudo bem?
 
 Recentemente eu precisei migrar alguns serviços de servidores da Digital Ocean para a AWS e alguns desses serviços tinham banco de dados locais, onde precisei fazer o backup usando ‘mysqldump’ (posso fazer um post no futuro falando sobre), e era gerado um arquivo que futuramente iria servir para a restauração daquela base de dados. Até aí tudo bem, mas me surgiu a duvida: Beleza, mas como vou mandar isso para o outro servidor? 🤔
