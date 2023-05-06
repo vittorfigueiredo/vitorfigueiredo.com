@@ -39,13 +39,6 @@
   gap: 1rem;
 }
 
-.author img {
-  display: flex;
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-}
-
 .author h6 {
   margin: 0;
 }
