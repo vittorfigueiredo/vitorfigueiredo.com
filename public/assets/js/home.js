@@ -28,22 +28,35 @@ async function getLatestArticles() {
   return;
 }
 
-function getPopularArticles() {
-  for (let i = 0; i < 1; i++) {
-    const popularArticlesLinksDiv = document.getElementById('popular-articles-links');
+async function getPopularArticles() {
+  const response = await fetch('/article/popular', { method: 'GET' });
 
+  const articles = await response.json();
+
+  const popularArticlesLinksDiv = document.getElementById('popular-articles-links');
+
+  if (Object.keys(articles).length === 0 || response.status !== 200) {
+    popularArticlesLinksDiv.innerText = 'Nenhum artigo encontrado!';
+    popularArticlesLinksDiv.style.fontWeight = 300;
+
+    return;
+  }
+
+  for (let article of articles) {
     const popularArticlesLinksUl = document.createElement('ul');
     const popularArticlesLinksLi = document.createElement('li');
-    // const popularArticlesLinksA = document.createElement('a');
-    // popularArticlesLinksA.href = '#';
-    popularArticlesLinksLi.innerText = 'Nenhum artigo encontrado!';
+    const popularArticlesLinksA = document.createElement('a');
+    popularArticlesLinksA.href = `article?name=${article.content}`;
+    popularArticlesLinksA.innerText = article.title;
+    popularArticlesLinksA.setAttribute('aria-label', `Read more about ${article.title}`);
 
     popularArticlesLinksDiv.appendChild(popularArticlesLinksUl);
     popularArticlesLinksUl.appendChild(popularArticlesLinksLi);
-    // popularArticlesLinksLi.appendChild(popularArticlesLinksA);
+    popularArticlesLinksLi.appendChild(popularArticlesLinksA);
   }
-}
 
+  return;
+}
 
 getLatestArticles();
 getPopularArticles();
