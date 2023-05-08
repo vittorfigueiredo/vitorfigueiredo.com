@@ -38,7 +38,6 @@
       <button>Todos</button>
     </div>
     <div id="latest-articles-links" class="links">
-      <ul></ul>
     </div>
   </div>
 
@@ -47,7 +46,6 @@
       <h1>Artigos Populares</h1>
     </div>
     <div id="popular-articles-links" class="links">
-      <ul></ul>
     </div>
   </div>
 </main>
