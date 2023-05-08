@@ -6,7 +6,7 @@ namespace app\helpers;
 
 class Response
 {
-  public static function json(array $data):int
+  public static function json(array $data): int
   {
     header('Access-Control-Allow-Origin: *');
     header('Content-type: application/json');
