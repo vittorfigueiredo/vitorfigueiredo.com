@@ -40,6 +40,7 @@ class Router
         "/" => fn() => self::load("HomeController", "index"),
         "/article" => fn() => self::load("ArticleController", "index"),
         "/article/all" => fn() => self::load("ArticleController", "getArticles"),
+        "/article/popular" => fn() => self::load("ArticleController", "getPopularArticles"),
         "/article/name" => fn() => self::load("ArticleController", "getArticleByName")
       ],
     ];
