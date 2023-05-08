@@ -6,7 +6,6 @@ namespace app\controllers;
 
 use app\database\DBConnection;
 use app\helpers\Response;
-use app\helpers\Uri;
 
 class ArticleController extends Controller
 {
@@ -17,13 +16,13 @@ class ArticleController extends Controller
     $this->connection = new DBConnection();
   }
 
-  public function index()
+  public function index(object $request)
   {
-    $articleName = str_replace("name=", "", Uri::get('query'));
-
-    if (!$articleName) {
+    if (!$request->name) {
       return $this->view("404");
     }
+
+    $articleName = htmlspecialchars($request->name, ENT_QUOTES);
 
     $article = self::getArticleByName($articleName);
 
@@ -31,8 +30,10 @@ class ArticleController extends Controller
       return $this->view("404");
     }
 
+    self::setView($article["id"]);
+
     return $this->view("article", [
-      "title" => $article['title'] . " – Vitor Figueiredo",
+      "title" => $article["title"] . " – Vitor Figueiredo",
       "article" => $article
     ]);
   }
@@ -51,10 +52,24 @@ class ArticleController extends Controller
     return Response::json($articles);
   }
 
-  private function getArticleByName(string $name)
+  public function getPopularArticles()
+  {
+    $query = "SELECT * FROM articles ORDER BY views DESC LIMIT 5";
+    $statement = $this->connection->prepare($query);
+    $statement->execute();
+    $articles = $statement->fetchAll(DBConnection::FETCH_ASSOC);
+
+    if (!$articles) {
+      return Response::json([]);
+    }
+
+    return Response::json($articles);
+  }
+
+  private function getArticleByName(string $name): array
   {
 
-    $query = "SELECT title, createdAt FROM articles WHERE content = '$name'";
+    $query = "SELECT id, title, createdAt FROM articles WHERE content = '$name'";
     $statement = $this->connection->prepare($query);
     $statement->execute();
     $article = $statement->fetchAll(DBConnection::FETCH_ASSOC)[0];
@@ -64,5 +79,14 @@ class ArticleController extends Controller
     }
 
     return $article;
+  }
+
+  private function setView(int $articleId): void
+  {
+    $query = "UPDATE articles SET views = views + 1 WHERE id = ?";
+    $statement = $this->connection->prepare($query);
+    $statement->execute([$articleId]);
+
+    return;
   }
 }
