@@ -15,7 +15,8 @@
         }
     },
     "scripts": {
-      "start": "php -S 18.220.121.100:8080 -t public/"
+      "start": "clear && php -S 0.0.0.0:8000 -t public/",
+      "migration:run": "vendor/bin/phinx migrate"
     },
     "authors": [
         {
