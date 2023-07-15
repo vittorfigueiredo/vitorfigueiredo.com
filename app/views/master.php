@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-VJKR7JG0CN"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
 
     gtag('config', 'G-VJKR7JG0CN');
@@ -23,69 +27,92 @@
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/atom-one-dark.min.css">
   <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="stylesheet" href="/assets/css/cookies.css">
-  <title><?=$this->e($title)?></title>
+
+  <title><?= $this->e($title) ?></title>
+
 </head>
-<body>
-  <header>
-    <nav class="container navbar navbar-expand-lg">
-      <div class="container-fluid" style="padding: auto;">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="padding: 0; margin: 0;">
-          <span role="button" ><i class="fa fa-bars" style="font-size: 2rem; color:#C0C0C0;"></i></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link home" aria-current="page" href="/">Home</a>
-            </li>
-            <li class="nav-item" hidden>
-              <a class="nav-link articles" href="/articles">Artigos</a>
-            </li>
-            <li class="nav-item" hidden>
-              <a class="nav-link music" href="/music">Musica</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link contact" href="#contact">Contato</a>
-            </li>
-          </ul>
+
+<body class="container bg-light text-dark">
+  <header class="d-flex justify-content-between">
+    <div>
+      <nav class="container navbar navbar-expand-lg bg-light text-dark">
+        <div class="container-fluid" style="padding: auto;">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="padding: 0; margin: 0;">
+            <span role="button"><i class="fa fa-bars text-dark" style="font-size: 2rem;"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link home text-dark" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item" hidden>
+                <a class="nav-link articles text-dark" href="/articles">Artigos</a>
+              </li>
+              <li class="nav-item" hidden>
+                <a class="nav-link music text-dark" href="/music">Musica</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link contact text-dark" href="#contact">Contato</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
+
+    <div class="form-check form-switch ms-auto mt-3 me-3">
+      <label class="form-check-label ms-3" for="lightSwitch">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="25"
+          height="25"
+          fill="currentColor"
+          class="bi bi-brightness-high"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"
+          />
+        </svg>
+      </label>
+      <input class="form-check-input" type="checkbox" id="lightSwitch" />
+    </div>
   </header>
 
-  <?=$this->section('content')?>
+  <?= $this->section('content') ?>
 
   <footer class="container">
-    <div  id="up-arrow">
-      <img width="43px" height="43px" src="/assets/img/chevron-up.svg" alt="up" onclick="scrollUp()">
+    <div id="up-arrow">
+      <i class="bi bi-arrow-up text-center" onclick="scrollUp()"></i>
     </div>
     <div id="contact" class="d-lg-flex justify-content-center">
       <div>
-        <a href="https://twitter.com/ovitorfs" aria-label="Link to my twitter" target="_blank"><i class="bi bi-twitter"></i></a>
+        <a href="https://twitter.com/ovitorfs" aria-label="Link to my twitter" target="_blank"><i class="bi bi-twitter text-secondary"></i></a>
       </div>
       <div>
-        <a href="https://linkedin.com/in/vittorfigueiredo" aria-label="Link to my linkedin" target="_blank"><i class="bi bi-linkedin"></i></a>
+        <a href="https://linkedin.com/in/vittorfigueiredo" aria-label="Link to my linkedin" target="_blank"><i class="bi bi-linkedin text-secondary"></i></a>
       </div>
       <div>
-        <a href="https://github.com/vittorfigueiredo" aria-label="Link to my github" target="_blank"><i class="bi bi-github"></i></a>
+        <a href="https://github.com/vittorfigueiredo" aria-label="Link to my github" target="_blank"><i class="bi bi-github text-secondary"></i></a>
       </div>
       <div>
-        <a href="https://youtube.com/@vittorfigueiredo" aria-label="Link to my youtube channel" target="_blank"><i class="bi bi-youtube"></i></a>
+        <a href="https://youtube.com/@vittorfigueiredo" aria-label="Link to my youtube channel" target="_blank"><i class="bi bi-youtube text-secondary"></i></a>
       </div>
     </div>
     <div id="copyright" class="d-lg-flex justify-content-center">
-      <p>Developed by<a href="/" aria-label="Go to home page" target="_blank"> Vitor Figueiredo</a></p>
+      <p>Developed by<a class="text-secondary" href="/" aria-label="Go to home page" target="_blank"> Vitor Figueiredo</a></p>
     </div>
     <div id="open-source">
-      <p><a href="https://github.com/vittorfigueiredo/vitorfigueiredo.com" aria-label="Go to open source repository">This website is open-source</a></p>
+      <p class="text-light"><a class="text-secondary" href="https://github.com/vittorfigueiredo/vitorfigueiredo.com" aria-label="Go to open source repository">This website is open-source</a></p>
     </div>
   </footer>
 
   <!-- Cookie Banner -->
-  <div id="cb-cookie-banner" class="alert alert-dark text-center mb-0" role="alert">
+  <div id="cb-cookie-banner" class="alert text-center text-light mb-0 bg-dark" role="alert">
     🍪 Este site usa cookies para garantir que você obtenha a melhor experiência em nosso site.
-    <a href="https://www.cookiesandyou.com/" aria-label="Read more cookies" target="blank">Saiba mais</a>
-    <button type="button" class="btn btn-dark btn-sm ms-3" onclick="window.cb_hideCookieBanner()">
-    Aceito
+    <a class="text-secondary" href="https://www.cookiesandyou.com/" aria-label="Read more cookies" target="blank">Saiba mais</a>
+    <button type="button" class="btn btn-light btn-sm ms-3" onclick="window.cb_hideCookieBanner()">
+      Aceito
     </button>
   </div>
   <!-- End of Cookie Banner -->
@@ -93,6 +120,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   <script src="/assets/js/global.js"></script>
   <script src="/assets/js/cookies.js"></script>
+  <script src="/assets/js/switch.js"></script>
 
 </body>
+
 </html>
