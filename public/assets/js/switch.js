@@ -81,7 +81,6 @@
     });
 
     document.querySelectorAll('.text-light').forEach((element) => {
-      console.log(element)
       element.className = element.className.replace(/text-light/, 'text-dark');
     });
 
