@@ -9,6 +9,7 @@ jobs:
   deploy:
     name: production
     runs-on: ubuntu-latest
+    environment: production
 
     steps:
       - name: executing remote ssh commands using ssh key
