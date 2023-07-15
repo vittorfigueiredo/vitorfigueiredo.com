@@ -9,32 +9,19 @@
   }
 }
 
-body {
-  background-color: #1C1C1C;
-  color: #C0C0C0;
-}
-
 body a {
-  color: #808080;
   text-decoration: none;
 }
 
 body a:hover {
-  color: #696969;
+  color: #808080;
   text-decoration: underline;
-}
-
-nav {
-  background: #1C1C1C;
-}
-
-nav span {
- color: #C0C0C0;
 }
 
 .nav-link {
   font-size: 1.5em;
-  color: #C0C0C0;
+  font-weight: bold;
+  color: #1C1C1C;
   text-decoration: none;
 }
 
@@ -65,15 +52,14 @@ nav span {
 
 .name-and-description h4 {
   font-size: 1.3em;
-  font-weight: 300;
+  font-weight: normal;
 }
 
 .about-section {
   margin-top: 1.5em;
-
   text-align: justify;
   font-size: 1.3em;
-  font-weight: 300;
+  font-weight: normal;
 }
 
 .latest-articles {
@@ -93,16 +79,16 @@ nav span {
   border-radius: .2em;
   border: solid;
   border-width: 0.1em;
-  color: #C0C0C0;
-  background-color: #1C1C1C;
+  /* color: #1C1C1C; */
+  /* background-color: #C0C0C0; */
 }
 
 .title button:hover {
   cursor: pointer;
-  color: #1C1C1C;
-  background-color: #C0C0C0;
-  border: none;
-  transition: .3s;
+  /* color: #F8F9FA;
+  background-color: #212529; */
+  /* border: none; */
+  transition: .5s;
 }
 
 .links {
@@ -111,7 +97,7 @@ nav span {
 }
 
 .links ul {
-  font-weight: 300;
+  font-weight: normal;
   list-style: none;
   margin: 0 0 0 -1.5em;
 }
@@ -129,10 +115,10 @@ footer p {
   margin: 0;
   text-align: center;
   font-size: 1.3em;
-  font-weight: 300;
+  font-weight: normal;
 }
 
-.copyright {
+#copyright, #open-source {
   display: flex;
   justify-content: center;
   gap: .3em;
@@ -158,19 +144,29 @@ footer p {
   font-size: 24px;
 }
 
+#contact i:hover {
+  opacity: 80%;
+}
+
 #up-arrow {
   display: flex;
   justify-content: end;
 }
 
-#up-arrow img {
-  background-color: #FFFF;
+#up-arrow i {
   padding: .6em;
   border-radius: 50%;
+  border: solid 1px;
+  width: 43px;
+  height: 43px;
 }
 
-#up-arrow img:hover {
+#up-arrow i:hover {
   cursor: pointer;
-  transition: .2s;
-  background-color: #696969;
+  transition: .5s;
+  opacity: 80%;
+}
+
+#lightSwitch {
+  transform: scale(1.8);
 }
