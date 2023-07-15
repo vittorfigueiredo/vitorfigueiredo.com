@@ -18,6 +18,7 @@ async function getLatestArticles() {
     const latestArticlesLinksA = document.createElement('a');
     latestArticlesLinksA.href = `article?name=${article.content}`;
     latestArticlesLinksA.innerText = article.title;
+    latestArticlesLinksA.setAttribute('class', 'text-secondary');
     latestArticlesLinksA.setAttribute('aria-label', `Read more about ${article.title}`);
 
     latestArticlesLinksDiv.appendChild(latestArticlesLinksUl);
@@ -48,6 +49,7 @@ async function getPopularArticles() {
     const popularArticlesLinksA = document.createElement('a');
     popularArticlesLinksA.href = `article?name=${article.content}`;
     popularArticlesLinksA.innerText = article.title;
+    popularArticlesLinksA.setAttribute('class', 'text-secondary');
     popularArticlesLinksA.setAttribute('aria-label', `Read more about ${article.title}`);
 
     popularArticlesLinksDiv.appendChild(popularArticlesLinksUl);
