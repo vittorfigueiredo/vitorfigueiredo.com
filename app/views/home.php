@@ -35,7 +35,7 @@
   <div class="latest-articles">
     <div class="title">
       <h1>Últimos Artigos</h1>
-      <button>Todos</button>
+      <!-- <button class="text">Todos</button> -->
     </div>
     <div id="latest-articles-links" class="links">
     </div>
