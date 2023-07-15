@@ -62,9 +62,9 @@
 }
 
 .content p {
-  font-size: 1.2em;
+  font-size: 1.3em;
   text-align: justify;
-  font-weight: 300;
+  font-weight: normal;
 }
 
 h2 {
@@ -80,7 +80,7 @@ pre, code {
   display: flex;
   margin-top: 5em;
   gap: 1rem;
-  background-color: #C0C0C0;
+  /* background-color: #282C34; */
   padding: 2em;
   border-radius: 1em;
   color: #1C1C1C;
