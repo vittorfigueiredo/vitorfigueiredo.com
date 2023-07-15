@@ -33,13 +33,13 @@
     ?>
   </div>
 
-  <div class="about-author">
+  <div class="about-author border border-secondary">
     <div class="author-image">
       <img height="128" width="128" src="/assets/img/profile.jpg" alt="author image">
     </div>
     <div class="about-author-description">
-      <h1>Sobre Vitor</h1>
-      <p>Desenvolvedor Web Backend, apaixonado por tecnologia e gamer nas hora vagas.</p>
+      <h1 class="text-light">Sobre Vitor</h1>
+      <p class="text-light">Desenvolvedor Web Backend, apaixonado por tecnologia e gamer nas hora vagas.</p>
     </div>
   </div>
 </div>
