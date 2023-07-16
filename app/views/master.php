@@ -52,7 +52,7 @@
                 <a class="nav-link music text-dark" href="/music">Musica</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link contact text-dark" href="#contact">Contato</a>
+                <a class="nav-link contact text-dark" href="/contact">Contato</a>
               </li>
             </ul>
           </div>
