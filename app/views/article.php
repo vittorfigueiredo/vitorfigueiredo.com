@@ -34,7 +34,7 @@
 
 <div class="about-author border border-secondary">
   <div class="author-image">
-    <img height="128" width="128" src="/assets/img/profile.jpg" alt="author image">
+    <img height="128" width="128" src="/assets/img/profile.webp" alt="author image">
   </div>
   <div class="about-author-description">
     <h1 class="text-light">Sobre Vitor</h1>
