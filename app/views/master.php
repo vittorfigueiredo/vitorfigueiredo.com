@@ -37,15 +37,15 @@
       <nav class="container navbar navbar-expand-lg bg-light text-dark">
         <div class="container-fluid" style="padding: auto;">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="padding: 0; margin: 0;">
-            <span role="button" aria-label="main menu"><i class="fa fa-bars text-dark" style="font-size: 2rem;"></i></span>
+            <span role="button" aria-label="main menu"><i class="bi bi-list text-dark" style="font-size: 2.5rem;"></i></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link home text-dark" aria-current="page" href="/">Home</a>
               </li>
-              <li class="nav-item" hidden>
-                <a class="nav-link articles text-dark" href="/articles">Artigos</a>
+              <li class="nav-item">
+                <a class="nav-link projects text-dark" href="/projects">Projetos</a>
               </li>
               <li class="nav-item" hidden>
                 <a class="nav-link music text-dark" href="/music">Musica</a>
@@ -121,6 +121,7 @@
   <script src="/assets/js/global.js"></script>
   <script src="/assets/js/cookies.js"></script>
   <script src="/assets/js/switch.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
 </body>
 
