@@ -20,7 +20,7 @@
 
   <div id="links-section" class="d-flex flex-column gap-3 mt-4">
     <a class="btn btn-secondary text-decoration-none" href="https://github.com/vittorfigueiredo" target="_blank"><i class="bi bi-github"></i> GitHub</a>
-    <a class="btn btn-secondary text-decoration-none" href="https://vittorfigueiredo.com" target="_blank"><i class="bi bi-browser-safari"></i> Website</a>
+    <a class="btn btn-secondary text-decoration-none" href="https://vitorfigueiredo.com" target="_blank"><i class="bi bi-browser-safari"></i> Website</a>
     <a class="btn btn-secondary text-decoration-none" href="https://www.linkedin.com/in/vittorfigueiredo" target="_blank"><i class="bi bi-linkedin"></i> Linkedin</a>
     <a class="btn btn-secondary text-decoration-none" href="https://www.youtube.com/@vittorfigueiredo" target="_blank"><i class="bi bi-youtube"></i> YouTube</a>
   </div>
