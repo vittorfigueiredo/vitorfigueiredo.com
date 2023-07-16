@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace app\routes;
 
 use app\controllers\NotFoundController;
+use app\database\DBConnection;
 use app\helpers\Request;
 use app\helpers\Uri;
 
@@ -39,9 +40,8 @@ class Router
       "GET" => [
         "/" => fn() => self::load("HomeController", "index"),
         "/article" => fn() => self::load("ArticleController", "index"),
-        "/article/all" => fn() => self::load("ArticleController", "getArticles"),
-        "/article/popular" => fn() => self::load("ArticleController", "getPopularArticles"),
-        "/article/name" => fn() => self::load("ArticleController", "getArticleByName")
+        "/api/article/all" => fn() => self::load("ArticleController", "getArticles"),
+        "/api/article/popular" => fn() => self::load("ArticleController", "getPopularArticles"),
       ],
     ];
   }
@@ -53,6 +53,18 @@ class Router
       $request = Request::get();
       $uri = Uri::get("path");
       $notFound = new NotFoundController();
+      $dbConection = new DBConnection();
+
+      if (explode("/", $uri)[1] === "api") {
+        $query = "SELECT * FROM api_access_tokens WHERE token = ? AND status = 'active'";
+        $statement = $dbConection->prepare($query);
+        $statement->execute([$_SERVER["HTTP_AUTHORIZATION"]]);
+        $apiAccessToken = $statement->fetchAll(DBConnection::FETCH_ASSOC);
+
+        if (empty($apiAccessToken)) {
+          return $notFound->index();
+        }
+      }
 
       if (!isset($routes[$request])) {
         return $notFound->index();
