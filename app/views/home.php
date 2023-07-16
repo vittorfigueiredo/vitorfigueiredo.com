@@ -1,9 +1,8 @@
 <?php $this->layout("master", ["title" => $title]) ?>
 
-<main class="container">
   <div class="profile-section">
     <div class="image">
-      <img src="/assets/img/profile.jpg" alt="profile">
+      <img src="/assets/img/profile.webp" alt="profile">
     </div>
     <div class="name-and-description">
       <h1>Olá, Eu sou o Vitor</h1>
@@ -48,6 +47,8 @@
     <div id="popular-articles-links" class="links">
     </div>
   </div>
-</main>
 
-<script src="/assets/js/home.js"></script>
+<script src="/assets/js/home.js" type="module"></script>
+<script>
+  const API_ACCESS_TOKEN = '<?= $this->e($apiAccessToken) ?>';
+</script>
