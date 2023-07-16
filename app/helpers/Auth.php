@@ -27,7 +27,9 @@ class Auth
 
         $_SESSION["API_ACCESS_TOKEN"] = $apiAccessToken;
 
-        $query = "INSERT INTO api_access_tokens SET token = ?";
+        $expiresIn = date("Y-m-d H:i:s", strtotime('+6 hours'));
+
+        $query = "INSERT INTO api_access_tokens SET token = ?, expires_in = '$expiresIn'";
         $statement = $this->connection->prepare($query);
         $statement->execute([$apiAccessToken]);
 
@@ -52,7 +54,9 @@ class Auth
 
         $_SESSION["API_ACCESS_TOKEN"] = $apiAccessToken;
 
-        $query = "INSERT INTO api_access_tokens SET token = ?";
+        $expiresIn = date("Y-m-d H:i:s", strtotime('+6 hours'));
+
+        $query = "INSERT INTO api_access_tokens SET token = ?, expires_in = '$expiresIn'";
         $statement = $this->connection->prepare($query);
         $statement->execute([$apiAccessToken]);
 
