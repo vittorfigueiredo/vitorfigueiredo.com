@@ -1,6 +1,10 @@
 <?php $this->layout("master", ["title" => $title]) ?>
 
 <style>
+  #up-arrow {
+    display: none;
+  }
+
   #message404 {
     position: relative;
     display: flex;
