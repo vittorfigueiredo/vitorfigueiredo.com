@@ -79,7 +79,9 @@
     </div>
   </header>
 
-  <?= $this->section('content') ?>
+  <main class="container">
+    <?= $this->section('content') ?>
+  </main>
 
   <footer class="container">
     <div id="up-arrow">
