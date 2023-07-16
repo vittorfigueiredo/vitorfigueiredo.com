@@ -1,10 +1,6 @@
 <?php $this->layout("master", ["title" => $title]) ?>
 
 <style>
-  #up-arrow {
-    display: none;
-  }
-
   #links-section a {
     line-height: 2.2em;
     height: 3em;
@@ -13,7 +9,7 @@
 </style>
 
 <div class="d-flex flex-column justify-content-center mt-4">
-  <div id="about-section" class="d-flex flex-column gap-3 mt-5">
+  <div id="about-section" class="d-flex flex-column gap-3">
     <img class="rounded-circle mx-auto img-responsive" src="assets/img/profile.webp" alt="profile picture" height="125px" width="125px">
     <h5 class="text-center">Vitor Figueiredo</h5>
   </div>
