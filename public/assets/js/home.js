@@ -1,5 +1,10 @@
-async function getLatestArticles() {
-  const response = await fetch('/article/all', { method: 'GET' });
+async function getLatestArticles(API_ACCESS_TOKEN) {
+  const response = await fetch('/api/article/all', {
+    method: 'GET',
+    headers: {
+      'Authorization': API_ACCESS_TOKEN
+    }
+  });
 
   const articles = await response.json();
 
@@ -29,8 +34,13 @@ async function getLatestArticles() {
   return;
 }
 
-async function getPopularArticles() {
-  const response = await fetch('/article/popular', { method: 'GET' });
+async function getPopularArticles(API_ACCESS_TOKEN) {
+  const response = await fetch('/api/article/popular', {
+    method: 'GET',
+    headers: {
+      'Authorization': API_ACCESS_TOKEN
+    }
+  });
 
   const articles = await response.json();
 
@@ -60,5 +70,5 @@ async function getPopularArticles() {
   return;
 }
 
-getLatestArticles();
-getPopularArticles();
+getLatestArticles(API_ACCESS_TOKEN);
+getPopularArticles(API_ACCESS_TOKEN);
