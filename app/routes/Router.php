@@ -41,6 +41,7 @@ class Router
         "/" => fn() => self::load("HomeController", "index"),
         "/article" => fn() => self::load("ArticleController", "index"),
         "/contact" => fn() => self::load("ContactController", "index"),
+        "/projects" => fn() => self::load("ProjectController", "index"),
         "/api/article/all" => fn() => self::load("ArticleController", "getArticles"),
         "/api/article/popular" => fn() => self::load("ArticleController", "getPopularArticles"),
       ],
