@@ -49,6 +49,4 @@
   </div>
 
 <script src="/assets/js/home.js" type="module"></script>
-<script>
-  const API_ACCESS_TOKEN = '<?= $this->e($apiAccessToken) ?>';
-</script>
+<script> localStorage.setItem('accessToken', '<?= $this->e($apiAccessToken) ?>'); </script>

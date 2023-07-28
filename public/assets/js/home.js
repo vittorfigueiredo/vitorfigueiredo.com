@@ -1,8 +1,8 @@
-async function getLatestArticles(API_ACCESS_TOKEN) {
+async function getLatestArticles() {
   const response = await fetch('/api/article/all', {
     method: 'GET',
     headers: {
-      'Authorization': API_ACCESS_TOKEN
+      'Authorization': localStorage.getItem('accessToken')
     }
   });
 
@@ -34,11 +34,11 @@ async function getLatestArticles(API_ACCESS_TOKEN) {
   return;
 }
 
-async function getPopularArticles(API_ACCESS_TOKEN) {
+async function getPopularArticles() {
   const response = await fetch('/api/article/popular', {
     method: 'GET',
     headers: {
-      'Authorization': API_ACCESS_TOKEN
+      'Authorization': localStorage.getItem('accessToken')
     }
   });
 
@@ -70,5 +70,5 @@ async function getPopularArticles(API_ACCESS_TOKEN) {
   return;
 }
 
-getLatestArticles(API_ACCESS_TOKEN);
-getPopularArticles(API_ACCESS_TOKEN);
+getLatestArticles();
+getPopularArticles();
