@@ -181,7 +181,3 @@ footer p {
   transition: .5s;
   opacity: 80%;
 }
-
-#lightSwitch {
-  transform: scale(1.8);
-}
