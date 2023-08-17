@@ -12,6 +12,11 @@
     flex-direction: column;
     text-align: center;
   }
+
+  .content img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .title {
@@ -94,7 +99,8 @@ pre, code {
   border-radius: 50%;
 }
 
-.content img {
+.article-banner {
   width: 100%;
   height: auto;
+  border-radius: 1rem;
 }
