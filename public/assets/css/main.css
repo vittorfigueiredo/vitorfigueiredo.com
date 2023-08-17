@@ -117,6 +117,15 @@ main {
   margin: 0 0 0 -1.5em;
 }
 
+.links ul li {
+  display: flex;
+  gap: 1rem;
+}
+
+.links ul li p {
+  margin: 0;
+}
+
 .popular-articles {
   margin-top: 5em;
 }
