@@ -6,7 +6,7 @@
     </div>
     <div class="name-and-description">
       <h1>Olá, Eu sou o Vitor</h1>
-      <h4>Desenvolvedor Web Backend.</h4>
+      <h4>Desenvolvedor Backend.</h4>
     </div>
   </div>
 
