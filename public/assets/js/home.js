@@ -21,6 +21,7 @@ async function getLatestArticles() {
     const latestArticlesLinksUl = document.createElement('ul');
     const latestArticlesLinksLi = document.createElement('li');
     const latestArticlesLinksA = document.createElement('a');
+    const latestArticlesLinksP = document.createElement('p');
     latestArticlesLinksA.href = `article?name=${article.content}`;
     latestArticlesLinksA.innerText = article.title;
     latestArticlesLinksA.setAttribute('class', 'text-secondary');
@@ -29,6 +30,16 @@ async function getLatestArticles() {
     latestArticlesLinksDiv.appendChild(latestArticlesLinksUl);
     latestArticlesLinksUl.appendChild(latestArticlesLinksLi);
     latestArticlesLinksLi.appendChild(latestArticlesLinksA);
+
+    const dateDiff = new Date() - new Date(article.createdAt);
+
+    if ((dateDiff / (1000 * 60 * 60 * 24)) <= 7) {
+      latestArticlesLinksP.innerText = '*NEW*';
+      latestArticlesLinksP.style.fontWeight = 'bold';
+      latestArticlesLinksP.setAttribute('class', 'text-success');
+    }
+
+    latestArticlesLinksLi.appendChild(latestArticlesLinksP)
   }
 
   return;
@@ -57,6 +68,7 @@ async function getPopularArticles() {
     const popularArticlesLinksUl = document.createElement('ul');
     const popularArticlesLinksLi = document.createElement('li');
     const popularArticlesLinksA = document.createElement('a');
+    const popularArticlesLinksP = document.createElement('p');
     popularArticlesLinksA.href = `article?name=${article.content}`;
     popularArticlesLinksA.innerText = article.title;
     popularArticlesLinksA.setAttribute('class', 'text-secondary');
@@ -65,6 +77,16 @@ async function getPopularArticles() {
     popularArticlesLinksDiv.appendChild(popularArticlesLinksUl);
     popularArticlesLinksUl.appendChild(popularArticlesLinksLi);
     popularArticlesLinksLi.appendChild(popularArticlesLinksA);
+
+    const dateDiff = new Date() - new Date(article.createdAt);
+
+    if ((dateDiff / (1000 * 60 * 60 * 24)) <= 7) {
+      popularArticlesLinksP.innerText = '*NEW*';
+      popularArticlesLinksP.style.fontWeight = 'bold';
+      popularArticlesLinksP.setAttribute('class', 'text-success');
+    }
+
+    popularArticlesLinksLi.appendChild(popularArticlesLinksP);
   }
 
   return;
