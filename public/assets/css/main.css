@@ -131,8 +131,7 @@ main {
 }
 
 footer {
-  margin-top: 4em;
-  margin-bottom: 1em;
+  margin: 4em auto;
 }
 
 footer p {
