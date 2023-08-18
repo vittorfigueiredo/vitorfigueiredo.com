@@ -16,7 +16,6 @@
 
 <div class="content">
   <?php
-    use Parsedown;
     use app\helpers\Uri;
 
     $name = addslashes(str_replace("name=", "", Uri::get("query")));
