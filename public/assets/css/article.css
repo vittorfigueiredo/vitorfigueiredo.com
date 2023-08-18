@@ -81,23 +81,6 @@ pre, code {
   padding: 1rem;
 }
 
-.about-author {
-  display: flex;
-  margin-top: 5em;
-  gap: 1rem;
-  /* background-color: #282C34; */
-  padding: 2em;
-  border-radius: 1em;
-  color: #1C1C1C;
-  font-weight: 300;
-  font-size: 1.2em;
-}
-
-.author-image img {
-  height: 112px;
-  width: 112px;
-  border-radius: 50%;
-}
 
 .article-banner {
   width: 100%;
