@@ -1,4 +1,4 @@
-<center> <img src="https://myembeddeddiary.files.wordpress.com/2016/04/scp-between-linux-computers-featured.jpg?w=760" alt="article image"></img> </center>
+<center> <img src="https://myembeddeddiary.files.wordpress.com/2016/04/scp-between-linux-computers-featured.jpg" alt="article image"></img> </center>
 
 <br>
 
