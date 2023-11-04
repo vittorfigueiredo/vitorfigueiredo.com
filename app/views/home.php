@@ -12,7 +12,7 @@
 
   <div class="about-section">
     <p>
-      Programador de 21 anos apaixonado por tecnologia e solucionar problemas.
+      Programador de 22 anos apaixonado por tecnologia e solucionar problemas.
     </p>
     <p>
       Estou no mercado há 2 anos, onde comecei como estagiário e atualmente estou como júnior. Atuo principalmente como backend, mas já fiz front, infra e etc. Criei e apliquei diversas regras de negócio, sem contar na quantidade de bugs resolvidos haha.
