@@ -88,9 +88,6 @@
     </div>
     <div id="contact" class="d-lg-flex justify-content-center">
       <div>
-        <a href="https://twitter.com/ovitorfs" aria-label="Link to my twitter" target="_blank"><i class="bi bi-twitter text-secondary"></i></a>
-      </div>
-      <div>
         <a href="https://linkedin.com/in/vittorfigueiredo" aria-label="Link to my linkedin" target="_blank"><i class="bi bi-linkedin text-secondary"></i></a>
       </div>
       <div>
