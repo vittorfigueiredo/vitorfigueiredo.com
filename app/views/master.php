@@ -103,6 +103,10 @@
     <div id="open-source">
       <p class="text-light"><a class="text-secondary" href="https://github.com/vittorfigueiredo/vitorfigueiredo.com" aria-label="Go to open source repository">This website is open-source</a></p>
     </div>
+    <div id="badges" class="d-flex justify-content-left gap-3">
+      <a href="https://www.digitalocean.com/?refcode=4fff19c6fe60&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge" target="_blank"><img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg" width="100px" height="auto" alt="DigitalOcean Referral Badge" /></a>
+      <a class="bg-white" href="https://www.cloudflare.com/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Cloudflare_Logo.svg/2560px-Cloudflare_Logo.svg.png" width="100px" height="auto" alt="Cloudflare Badge" /></a>
+    </div>
   </footer>
 
   <!-- Cookie Banner -->

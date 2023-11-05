@@ -7,9 +7,14 @@
   p {
     word-spacing: -2px;
   }
+
+  #badges {
+    justify-content: center;
+  }
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
@@ -32,12 +37,12 @@ body a:hover {
 .nav-link {
   font-size: 1.5em;
   font-weight: bold;
-  color: #1C1C1C;
+  color: #1c1c1c;
   text-decoration: none;
 }
 
 #navbarSupportedContent a {
-  padding: .6em .6em .6em 0;
+  padding: 0.6em 0.6em 0.6em 0;
   gap: 1em;
 }
 
@@ -58,7 +63,7 @@ body a:hover {
 }
 
 .name-and-description {
-  margin-top: .8em;
+  margin-top: 0.8em;
 }
 
 .name-and-description h4 {
@@ -91,7 +96,7 @@ main {
   height: 2em;
   width: 6em;
   margin-top: 0.3em;
-  border-radius: .2em;
+  border-radius: 0.2em;
   border: solid;
   border-width: 0.1em;
   /* color: #1C1C1C; */
@@ -103,7 +108,7 @@ main {
   /* color: #F8F9FA;
   background-color: #212529; */
   /* border: none; */
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .links {
@@ -141,10 +146,15 @@ footer p {
   font-weight: normal;
 }
 
-#copyright, #open-source {
+#badges {
+  padding-top: 0.6em;
+}
+
+#copyright,
+#open-source {
   display: flex;
   justify-content: center;
-  gap: .3em;
+  gap: 0.3em;
   margin-bottom: 0;
 }
 
@@ -159,7 +169,7 @@ footer p {
 #contact {
   display: flex;
   justify-content: space-between;
-  padding: .6em;
+  padding: 0.6em;
   gap: 1em;
 }
 
@@ -177,7 +187,7 @@ footer p {
 }
 
 #up-arrow i {
-  padding: .6em;
+  padding: 0.6em;
   border-radius: 50%;
   border: solid 1px;
   width: 43px;
@@ -186,6 +196,6 @@ footer p {
 
 #up-arrow i:hover {
   cursor: pointer;
-  transition: .5s;
+  transition: 0.5s;
   opacity: 80%;
 }
