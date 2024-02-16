@@ -6,28 +6,22 @@
     </div>
     <div class="name-and-description">
       <h1>Olá, Eu sou o Vitor</h1>
-      <h4>Desenvolvedor Backend.</h4>
+      <h4>Desenvolvedor de Software.</h4>
     </div>
   </div>
 
   <div class="about-section">
     <p>
-      Programador de 22 anos apaixonado por tecnologia e solucionar problemas.
+      Programador apaixonado por tecnologia e solucionador de problemas, com 22 anos de idade e uma trajetória de mais de 3 anos no mercado. Iniciei como estagiário e, atualmente, atuo como desenvolvedor pleno, com uma ampla experiência que vai além do backend, incluindo passagens pelo desenvolvimento frontend e infraestrutura.
     </p>
     <p>
-      Estou no mercado há 2 anos, onde comecei como estagiário e atualmente estou como júnior. Atuo principalmente como backend, mas já fiz front, infra e etc. Criei e apliquei diversas regras de negócio, sem contar na quantidade de bugs resolvidos haha.
+    Minha expertise está centrada na minha stack principal, PHP, Laravel e MySQL, além do conhecimento consolidado no framework NestJS.
     </p>
     <p>
-      Minha stack principal é o PHP e MySQL. Tenho experiência também com o framework NestJS. Atualmente estou estudando Laravel para somar na minha stack principal.
+      Não me prendo a ferramentas ou tecnologias específicas, optando pela abordagem que melhor atenda aos requisitos do projeto e garanta uma entrega de qualidade. Ao longo da minha jornada, enfrentei uma variedade de desafios e problemas inesperados, mas meu compromisso e perseverança sempre me permitiram superá-los.
     </p>
     <p>
-      Não me limito as ferramentas e nem tecnologias, uso a que for necessária para solucionar o problema e realizar uma entrega com qualidade.
-    </p>
-    <p>
-      Durante essa jornada fui exposto a diversos desafios e problemas inesperados no qual não sabia se era capaz de lidar, para o azar deles, não sou alguém que se dá por vencido e consegui derrubar um por um.
-    </p>
-    <p>
-      Esse sou eu! 🫡
+      Hoje, como profissional pleno, meu foco principal está em Laravel. Estou sempre em busca de novos aprendizados e desafios, determinado a proporcionar soluções inovadoras e eficientes. Este sou eu, um desenvolvedor que não se intimida diante das adversidades! 🫡
     </p>
   </div>
 
