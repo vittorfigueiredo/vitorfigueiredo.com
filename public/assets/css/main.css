@@ -199,3 +199,18 @@ footer p {
   transition: 0.5s;
   opacity: 80%;
 }
+
+.card {
+  display: block;
+  transition: transform 0.4s; /* smoother zoom */
+}
+
+.card:hover {
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.supbrokers {
+  background-color: #9747ff;
+}
