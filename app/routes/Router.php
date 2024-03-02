@@ -49,7 +49,7 @@ class Router
     ];
   }
 
-  public static function execute(): void
+  public static function execute(): mixed
   {
     try {
       $routes = self::routes();
