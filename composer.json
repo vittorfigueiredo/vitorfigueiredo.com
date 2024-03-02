@@ -6,7 +6,8 @@
         "robmorgan/phinx": "^0.13.1",
         "vlucas/phpdotenv": "^5.5",
         "league/plates": "^3.4",
-        "erusev/parsedown": "^1.7"
+        "erusev/parsedown": "^1.7",
+        "guzzlehttp/guzzle": "^7.0"
     },
     "license": "MIT",
     "autoload": {
