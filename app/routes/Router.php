@@ -13,10 +13,10 @@ class Router
 {
   const CONTROLLER_NAMESPACE = "app\\controllers";
 
-  public static function load(string $controller, string $method)
+  public static function load(string $controller, string $method): void
   {
     try {
-      $controllerNamespace = self::CONTROLLER_NAMESPACE."\\".$controller;
+      $controllerNamespace = self::CONTROLLER_NAMESPACE . "\\" . $controller;
 
       if (!class_exists($controllerNamespace)) {
         throw new \Exception("The controller {$controller} not exists!");
@@ -38,17 +38,18 @@ class Router
   {
     return [
       "GET" => [
-        "/" => fn() => self::load("HomeController", "index"),
-        "/article" => fn() => self::load("ArticleController", "index"),
-        "/contact" => fn() => self::load("ContactController", "index"),
-        "/projects" => fn() => self::load("ProjectController", "index"),
-        "/api/article/all" => fn() => self::load("ArticleController", "getArticles"),
-        "/api/article/popular" => fn() => self::load("ArticleController", "getPopularArticles"),
+        "/" => fn () => self::load("HomeController", "index"),
+        "/article" => fn () => self::load("ArticleController", "index"),
+        "/reading" => fn () => self::load("ReadingController", "index"),
+        "/contact" => fn () => self::load("ContactController", "index"),
+        "/projects" => fn () => self::load("ProjectController", "index"),
+        "/api/article/all" => fn () => self::load("ArticleController", "getArticles"),
+        "/api/article/popular" => fn () => self::load("ArticleController", "getPopularArticles"),
       ],
     ];
   }
 
-  public static function execute()
+  public static function execute(): void
   {
     try {
       $routes = self::routes();
@@ -79,7 +80,6 @@ class Router
       }
 
       $router();
-
     } catch (\Throwable $th) {
       echo $th->getMessage();
     }
