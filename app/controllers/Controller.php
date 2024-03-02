@@ -8,7 +8,7 @@ use League\Plates\Engine;
 
 abstract class controller
 {
-  protected static function view(string $view, array $data = []): void
+  protected static function view(string $view, array $data = [])
   {
     $viewPath = dirname(__FILE__, 2) . "/views";
 

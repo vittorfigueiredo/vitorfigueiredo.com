@@ -13,7 +13,7 @@ class Router
 {
   const CONTROLLER_NAMESPACE = "app\\controllers";
 
-  public static function load(string $controller, string $method): void
+  public static function load(string $controller, string $method)
   {
     try {
       $controllerNamespace = self::CONTROLLER_NAMESPACE . "\\" . $controller;
@@ -49,7 +49,7 @@ class Router
     ];
   }
 
-  public static function execute(): mixed
+  public static function execute()
   {
     try {
       $routes = self::routes();
