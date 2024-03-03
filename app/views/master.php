@@ -89,10 +89,10 @@
       </div>
     </div>
     <div id="copyright" class="d-lg-flex justify-content-center">
-      <p>Developed by<a class="text-secondary" href="/" aria-label="Go to home page" target="_blank"> Vitor Figueiredo</a></p>
+      <p>Developed by <a class="text-secondary" href="/" aria-label="Go to home page" target="_blank">Vitor Figueiredo</a></p>
     </div>
     <div id="open-source">
-      <p class="text-light"><a class="text-secondary" href="https://github.com/vittorfigueiredo/vitorfigueiredo.com" aria-label="Go to open source repository">This website is open-source</a></p>
+      <p class="text-light"><a class="text-secondary" href="https://github.com/vittorfigueiredo/vitorfigueiredo.com" aria-label="Go to open source repository">This website is open-source</a> / <a href="https://vitorfigueiredo.statuspage.io/" class="text-secondary" aria-label="Go to open status page" target="_blank">Status</a></p>
     </div>
     <div id="badges" class="d-flex justify-content-left align-items-center gap-3">
       <a href="https://www.digitalocean.com/?refcode=4fff19c6fe60&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge" target="_blank"><img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg" width="80px" height="auto" alt="DigitalOcean Referral Badge" /></a>

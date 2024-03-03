@@ -25,15 +25,6 @@ body {
   flex-direction: column;
 }
 
-body a {
-  text-decoration: none;
-}
-
-body a:hover {
-  color: #808080;
-  text-decoration: underline;
-}
-
 .nav-link {
   font-size: 1.5em;
   font-weight: bold;
@@ -99,15 +90,10 @@ main {
   border-radius: 0.2em;
   border: solid;
   border-width: 0.1em;
-  /* color: #1C1C1C; */
-  /* background-color: #C0C0C0; */
 }
 
 .title button:hover {
   cursor: pointer;
-  /* color: #F8F9FA;
-  background-color: #212529; */
-  /* border: none; */
   transition: 0.5s;
 }
 
