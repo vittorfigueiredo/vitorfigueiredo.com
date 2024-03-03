@@ -25,6 +25,11 @@ body {
   flex-direction: column;
 }
 
+body a:hover {
+  color: #808080;
+  text-decoration: underline;
+}
+
 .nav-link {
   font-size: 1.5em;
   font-weight: bold;
