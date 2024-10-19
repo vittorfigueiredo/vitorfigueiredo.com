@@ -107,6 +107,10 @@ main {
   font-size: 1.2em;
 }
 
+a {
+  text-decoration: none;
+}
+
 .links ul {
   font-weight: normal;
   list-style: none;
