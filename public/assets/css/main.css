@@ -200,6 +200,12 @@ footer p {
   transition: transform 0.4s; /* smoother zoom */
 }
 
+.card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
 .card:hover {
   -moz-transform: scale(1.05);
   -webkit-transform: scale(1.05);
