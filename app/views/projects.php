@@ -8,8 +8,8 @@
     <div class="card supbrokers">
       <img src="/assets/img/supbrokers.com.br.webp" class="card-img-top" alt="supbrokers.com.br image">
       <div class="card-body">
-        <h5 class="card-title text-white">Supbrokers</h5>
-        <p class="card-text text-white">Uma plataforma de gestão de vendas imobiliárias que automatiza e simplifica o processo de vendas.</p>
+        <h5 class="card-title text-white">Automatize, simplifique e venda mais</h5>
+        <p class="card-text text-white">Supbrokers é uma plataforma onde corretores e imobiliárias tradicionais se tornam digitais.</p>
       </div>
     </div>
   </a>
