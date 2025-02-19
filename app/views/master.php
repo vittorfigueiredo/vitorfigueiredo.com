@@ -79,13 +79,13 @@
     </div>
     <div id="contact" class="d-lg-flex justify-content-center">
       <div>
-        <a href="https://linkedin.com/in/vittorfigueiredo" aria-label="Link to my linkedin" target="_blank"><i class="bi bi-linkedin text-secondary"></i></a>
+        <a href="https://www.instagram.com/vittorfigueiredo" aria-label="Link to my instagram"><i class="bi bi-instagram text-secondary"></i></a>
       </div>
       <div>
-        <a href="https://github.com/vittorfigueiredo" aria-label="Link to my github" target="_blank"><i class="bi bi-github text-secondary"></i></a>
+        <a href="https://linkedin.com/in/vittorfigueiredo" aria-label="Link to my linkedin"><i class="bi bi-linkedin text-secondary"></i></a>
       </div>
       <div>
-        <a href="https://youtube.com/@vittorfigueiredo" aria-label="Link to my youtube channel" target="_blank"><i class="bi bi-youtube text-secondary"></i></a>
+        <a href="https://github.com/vittorfigueiredo" aria-label="Link to my github"><i class="bi bi-github text-secondary"></i></a>
       </div>
     </div>
     <div id="copyright" class="d-lg-flex justify-content-center">
